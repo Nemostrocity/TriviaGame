@@ -130,10 +130,12 @@ function createButtons() {
     //reveal new question with JQuery animation
 
     //when timer done, fade questions, 
+
+    //iterate through questions
     //update results,
     //ask to replay (without reloading page )
 
-
+    //add images to make it presentable ...
 
 
     // var ordered = ();
