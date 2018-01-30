@@ -5,12 +5,8 @@
     <meta charset="UTF-8">
     <title>A Confederacy of Dunces: a quiz regarding collective nouns</title>
     <style type="text/css">
-    ¬ button,
+    button,
     div,
-    form,
-    input {
-        margin: 10px;
-    }
     </style>
 </head>
 
@@ -19,22 +15,32 @@
         <div class="row">
             <div class="col-md-offset-1 col-md-12">
                 <div class="jumbotron">
-                    <h2>A Conederacy of Dunces, <br>
-             a test of collective nouns</h2>
+                    <h1>A Confederacy of Dunces:</h1> 
+                    <h2>a test of collective nouns</h2>
+                    <h3>Please select the appropriate word to complete the statement:</h3>
                     <span id="reLoad"></span>
                     <div class="row">
                         <div class="col-md-offset-3 col-md-2"></div>
-                        <div class="col-md-offset-3 col-md-8"> <span id="timer"></span>   <button id="quit">Quit</button></div>
+                        <div class="col-md-offset-3 col-md-8" id=questions>  <span id="instructions"></span></div>
                         <div class="col-md-offset-3 col-md-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-2"></div>
+                        <div class="col-md-offset-3 col-md-8"> <span id="timer"></span></div>
+                        <div class="col-md-offset-3 col-md-2"></div>
+                    </div> 
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-2"></div>
+                        <div class="col-md-offset-3 col-md-8"> <div id="buttons-view"></div>
+                        <div class="col-md-offset-3 col-md-2"> <button id="quit">Quit</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-    </div>
-    <br>
+    
 
     <!-- jQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
